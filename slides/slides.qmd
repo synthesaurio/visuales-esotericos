@@ -1,0 +1,277 @@
+---
+title: "Visuales esotericos con GLSL"
+author: Pablo Gomez a.k.a Synthesaurio (el)
+format: 
+  revealjs:
+    theme: [dark, custom.scss]
+    footer: "[Inicio](http://www.synthesaurio.com/visuales-esotericos/)"
+---
+
+## Quien es Pablo (Synthesaurio)?
+
+![](img/vet.png){fig-align="center"}
+
+::: notes
+Igual nada mas les quiero dar un poco de background de quien soy yo, 
+:::
+
+## Quien es Pablo (Synthesaurio)?
+
+
+![](img/day.png){fig-align="center"}
+
+::: notes
+Eventualmente me termine dedicando a epidemiologia computacional, lo cual involucra mucho codigo y modelos matematicos, y eso me llevp un poco a trabajar con visualizacion de datos.
+Como a mi siempre me han gustado los shows en vivo y la musica, durante la pandemia en 2020 dije... ya se que hare con mi tiempo libre
+:::
+
+## Quien es Synthesaurio?
+
+![](img/night.png){width="60%" fig-align="center"}
+
+::: notes
+Cuando terminaba el dia de trabajo cerraba mi computadora, me iba a mi casa, abria la compu otra vez y empece a experimentar con algunos softwares para hace visuales en vivo
+:::
+
+## Quien es Synthesaurio?
+
+![](img/vids/reel.mp4)
+
+
+## Quien es Synthesaurio?
+
+:::{.r-stack}
+![](img/td.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/kodelife.png){.fragment .fade-in-then-out fragment-index=2}
+
+
+:::
+
+
+## Que es este curso?
+
+::::{.columns}
+
+:::{.column width="33%"}
+I: Coordenadas, Colores y Dinamica
+
+![](img/dI.png)
+
+:::
+
+:::{.column width="33%"}
+II: Interviniendo texturas
+
+![](img/dII.png)
+
+:::
+
+:::{.column width="33%"}
+III: Mas alla de los básicos
+
+![](img/dIII.png)
+
+:::
+
+::::
+
+
+## Por que codigo?
+
+-   Escalabilidad
+-   Reproducibilidad
+-   Automatizacion
+
+
+## Que es GLSL?
+
+![](img/shadersMinecraft.jpeg)
+
+
+## Que es GLSL?
+
+::: {.r-stack}
+![](img/glsl-1.png){.fragment .fade-in-then-semi-out fragment-index=1}
+
+![](img/glsl-2.png){.fragment .fade-in-then-semi-out fragment-index=2}
+
+![](img/glsl-3.png){.fragment .fade-in-then-semi-out fragment-index=3}
+
+:::
+
+
+::: notes
+Que son los shaders?
+wizards on your computer that does math and spit vizuals
+pequenos programas que corren el el GPU por pixel. 
+Por ejemplo, si tenemos una pantalla de 1920 * 1020 que corre a una framerate de 60 fps, se calcula 117,964,800 por segundo!
+
+GLSL = openGL Shading Language
+:::
+
+
+## Como funciona GLSL? 
+
+<br/>
+
+:::: columns
+::: {.column width="50%"}
+![](img/rs-1.png){.fragment .fade-in fragment-index=1}
+:::
+
+::: {.column width="50%"}
+![](img/rs-3.png){.fragment .fade-in fragment-index=3}
+:::
+::::
+
+## Como funciona GLSL?
+
+<br/>
+
+:::: columns
+::: {.column width="50%"}
+![](img/rs-1.png)
+:::
+
+::: {.column width="50%"}
+![](img/rs-3g.png)
+:::
+::::
+
+
+
+## CPU vs GPU
+
+:::{.columns}
+:::{.column width="50%"}
+![](img/vids/cpu.mov)
+:::
+
+:::{.column width="50%"}
+![](img/vids/gpu.mov)
+:::
+
+:::
+
+::: notes
+Each thread is not just blind but also memoryless.
+:::
+
+## GPU
+
+:::{.columns}
+:::{.column width="50%"}
+![](img/memoryless.jpeg){width="110%"}
+
+Memoryless
+:::
+
+:::{.column width="50%"}
+
+
+:::
+
+:::
+
+## GPU
+
+:::{.columns}
+:::{.column width="50%"}
+![](img/memoryless.jpeg){width="110%"}
+
+Memoryless
+:::
+
+:::{.column width="50%"}
+![](img/blind.jpeg){width="100%"}
+
+Blind
+
+:::
+
+:::
+
+
+## Plataformas
+
+![](img/plataformas.png)
+  
+## Como aprendo GLSL?
+
+![](img/learn.jpeg)
+
+## Algunos referentes
+
+:::{.r-stack}
+
+![](img/char.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/patriciogv.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/sage.png){.fragment .fade-in-then-out fragment-index=3}
+
+:::
+
+  
+::: notes
+Algunos de ellos abordan el codigo y las matematicas desde una perspectiva mas filosofica y menos hard science, lo cual me parecio muy bonito e interesante
+
+  - Char stiles
+  - [Sol Sarratea](https://lashaderwiki.solsarratea.world/cursos/introductorios/live-coding-shaders-por-nodo-centro-cultral-digital/motivaciones)
+  - sage
+  - [Patricio Gonzalez](https://thebookofshaders.com) 
+:::
+  
+## Diseños generativos: replicando la naturaleza
+
+::: {.r-stack}
+![](img/noise.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/voronoi.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/fractals.png){.fragment .fade-in-then-out fragment-index=3}
+
+:::
+
+::: notes
+-   Fractales
+-   Ruido
+-   comportamientos emegentes y self organization
+-   percepcion de realidades en 3 dimensiones
+:::
+
+## Diseños generativos: replicando la naturaleza
+
+:::{.columns}
+:::{.column width="50%"}
+![](img/systems.jpeg)
+
+:::
+
+:::{.column width="50%"}
+![](img/vids/systems.mp4)
+
+:::
+
+:::
+
+
+## Como hacemos nuestro codigo dinamico?
+
+:::{.r-stack}
+
+![](img/time.png){width="70%" fig-align="center" .fragment .fade-in-then-out fragment-index=1}
+
+![](img/spectrum-1.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/spectrum-2.png){.fragment .fade-in-then-out fragment-index=3}
+
+:::
+
+::: notes
+
+:::
+
+
+# Coding time!

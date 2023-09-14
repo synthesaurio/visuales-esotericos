@@ -9,37 +9,36 @@ output: html_document
 
 GLSL es un lenguaje de programación para gráficos computacionales llamados shaders. Multiples plataformas de libre acceso proveen soporte a este lenguaje (i.e. touchdesigner, Meta spark AR, Unity). Algunas de estas plataformas permiten intervenir los shaders con señales externas como audio o midi, proporcionando la oportunidad de producir visuales generativos en tiempo real que responden a musica o sonido.
 En este curso exploraremos el uso de shaders para generar visuales audioreactivos mediante el software [Kodelife](https://hexler.net/kodelife). Kodelife es un editor de GLSL en tiempo real multiplataforma (windows, mac, ios, android y linux). No es necesario contar con conocimientos previo en programación, se recomienda a los participantes traer sus propios medios digitales (videos, imágenes, audios). 
+
 ## Objetivos del curso
 
 - Familiarizarse con el lenguaje de programación GLSL
 - Entender como integrar señales externas como audio en los visuales
 - Como integrar el uso de GLSL a otro software (p. ej. touchdesigner)
+
 ## Herramientas a usar 
 
 - Hardware: Computadora personal. De preferencia windows o mac
 - Software: [Kodelife](https://hexler.net/kodelife)
 - *Opcional: touchdesigner*
 
-<!-- ## Horario tentativo -->
+## Temario
 
 
-<!-- | Horario | Tema                                            | -->
-<!-- |---------|:------------------------------------------------| -->
-<!-- | 30 min  | Introduccion a GLSL                             | -->
-<!-- | 50 min  | Manipulando los pixeles en el espacio y tiempo  | -->
-<!-- | 50 min  | Distorcionando la realidad: intervencion de audio y video | -->
-<!-- | 20 min  | Rompiendo las barreras del software, GLSL en otras plataformas | -->
+| Dia | Tema                          |
+|---------|:--------------------------|
+| 01  | [Coordenadas, color y dinamica](https://ucdavis.box.com/s/buhe6vg36gxsvzb4g7ztadtcs18hrtrm) |
+| 02  | Texturas, buffers y feedback  |
+| 03  | Mas alla de los basicos       |
+
+
+## Enlaces de referencia
+
+  - [Funciones para formas](https://iquilezles.org/articles/distfunctions2d/)
+  - [Stickersheet de Char stiles](https://gist.github.com/CharStiles/e6fec016967c6c8fd648aa4b6c0055cc)
+  - [The book of shaders:](https://thebookofshaders.com) La biblia de referencia para shaders
 
 -------------------
-## Detalles adicionales
-
-Número de participantes : 3-20
-Equipo para la platica:
-- Proyector
-- Cable hdmi
-- Wifi 
-
-________
 
 
 ## Posicionalidad del expositor:

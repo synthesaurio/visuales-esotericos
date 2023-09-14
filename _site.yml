@@ -16,10 +16,8 @@ navbar:
     href: index.html
   - text: About Me
     href: about.html
-  - text: See
-    href: see.html
-  - text: Hear
-    href: music.html
+  - text: Slides
+    href: slides/slides.html
       
       
       

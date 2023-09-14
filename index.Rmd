@@ -1,0 +1,54 @@
+---
+title: "Visuales esotéricos audioreactivos con shaders y GLSL"
+output: html_document
+---
+**Instructor: Synthesaurio (a.k.a Pablo Gomez)**
+
+
+## Descripción del curso
+
+GLSL es un lenguaje de programación para gráficos computacionales llamados shaders. Multiples plataformas de libre acceso proveen soporte a este lenguaje (i.e. touchdesigner, Meta spark AR, Unity). Algunas de estas plataformas permiten intervenir los shaders con señales externas como audio o midi, proporcionando la oportunidad de producir visuales generativos en tiempo real que responden a musica o sonido.
+En este curso exploraremos el uso de shaders para generar visuales audioreactivos mediante el software [Kodelife](https://hexler.net/kodelife). Kodelife es un editor de GLSL en tiempo real multiplataforma (windows, mac, ios, android y linux). No es necesario contar con conocimientos previo en programación, se recomienda a los participantes traer sus propios medios digitales (videos, imágenes, audios). 
+## Objetivos del curso
+
+- Familiarizarse con el lenguaje de programación GLSL
+- Entender como integrar señales externas como audio en los visuales
+- Como integrar el uso de GLSL a otro software (p. ej. touchdesigner)
+## Herramientas a usar 
+
+- Hardware: Computadora personal. De preferencia windows o mac
+- Software: [Kodelife](https://hexler.net/kodelife)
+- *Opcional: touchdesigner*
+
+<!-- ## Horario tentativo -->
+
+
+<!-- | Horario | Tema                                            | -->
+<!-- |---------|:------------------------------------------------| -->
+<!-- | 30 min  | Introduccion a GLSL                             | -->
+<!-- | 50 min  | Manipulando los pixeles en el espacio y tiempo  | -->
+<!-- | 50 min  | Distorcionando la realidad: intervencion de audio y video | -->
+<!-- | 20 min  | Rompiendo las barreras del software, GLSL en otras plataformas | -->
+
+-------------------
+## Detalles adicionales
+
+Número de participantes : 3-20
+Equipo para la platica:
+- Proyector
+- Cable hdmi
+- Wifi 
+
+________
+
+
+## Posicionalidad del expositor:
+
+Pablo Gomez, nacido en Guanajuato Mexico; Investigador en el Centro de Modelación de Enfermedades Animales (CADMS) de la universidad de California de día y artista audiovisual de noche. A través de mi trayectoria he sido afortunado de ver el mundo desde diferentes perspectivas; desde trabajando en granjas remotas en la frontera sur de Mexico, hasta trabajando en el sótano de una institución de investigación rodeado de computadoras. Estoy interesado en la intersección de la ciencia y el arte, y las aplicaciones de la tecnología para descifrar la belleza en sistemas complejos. En mi trabajo de día utilizo métodos en programación y matemáticas, tales como modelos de simulación y estadística espacio-temporal; en mi practica artística me gusta explorar técnicas de composición algorítmica para generar visuales y musica. Encuentro mi inspiración en la interralación de las sociedades humanas con la naturaleza, y me gusta pensar que mi trabajo sirve como enlace entre diferentes areas de conocimiento.
+En mi trayectoria profesional he impartido diferentes cursos con participantes de más de 20 países en diferentes sectores como academia, gobierno o industria privada. 
+
+instagram: http://instagram.com/synthesaurio.av/. 
+
+website: https://www.synthesaurio.com   
+
+Reel de trabajo: https://youtu.be/xI9KrOo1SmY. 

@@ -1,0 +1,26 @@
+name: "Jose Pablo Gomez-Vazquez"  
+author: "Jose Pablo Gomez-Vazquez"  
+output_dir: "."  
+output:  
+  html_document:  
+    self_contained: no  
+    theme: darkly
+# “default”, “bootstrap”, “cerulean”, “cosmo”, “darkly”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, “yeti”
+navbar:
+  logo:
+    image: img/logo_nb.png
+    href: https://www.synthesaurio.com
+  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"Images/logo-nb.png\" />"
+  right:
+  - text: Home
+    href: index.html
+  - text: About Me
+    href: about.html
+  - text: See
+    href: see.html
+  - text: Hear
+    href: music.html
+      
+      
+      
+#© 2019 GitHub, Inc.

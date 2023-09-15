@@ -282,3 +282,64 @@ Algunos de ellos abordan el codigo y las matematicas desde una perspectiva mas f
 
 
 # Coding time!
+
+# Parte II: Interviniendo texturas
+
+# Pero primero una recap...
+
+
+## Colores en GLSL
+
+:::{.r-stack}
+
+![](img/col-01.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/col-02.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/col-03.png){.fragment .fade-in-then-out fragment-index=3}
+
+:::
+
+## Coordenadas en GLSL
+
+:::{.r-stack}
+
+![](img/coords-pos.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/coords-xy2.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/coords-space-01.png){.fragment .fade-in-then-out fragment-index=3}
+
+![](img/coords-space-02.png){.fragment .fade-in-then-out fragment-index=4}
+
+![](img/coords-space-03.png){.fragment .fade-in-then-out fragment-index=5}
+
+:::
+
+## Formas en GLSL
+
+:::{.r-stack}
+
+![](img/shapes-00.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/shapes-01.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/shapes-02.png){.fragment .fade-in-then-out fragment-index=3}
+
+![](img/shapes-03.png){.fragment .fade-in-then-out fragment-index=4}
+
+![](img/shapes-04.png){.fragment .fade-in-then-out fragment-index=5}
+
+:::
+
+
+::: notes
+
+  - Use the functions, experiment with new functions if you feel more adventorous
+  - Use smoothstep for sharpening the shapes
+  - COMBINE shapes to create new ones 
+    - min, max, +, -, *, and other creative ways!
+  
+:::
+
+# Coding Time II

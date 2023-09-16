@@ -44,7 +44,9 @@ En este curso exploraremos el uso de shaders para generar visuales audioreactivo
     - [Sketchfab](https://sketchfab.com/) libreria de geometrias 3D
     - [Blender](https://www.blender.org/download/) Software de edicion para modelos 3D
     - [Meta Spark toolkit](https://spark.meta.com/learn/articles/creating-and-prepping-assets/toolkit-for-blender) addin de blender para simplificar geometrias
-
+  - [Otras funciones](https://github.com/synthesaurio/visuales-esotericos/blob/main/checkpoints/funciones.glsl)
+  
+  
 -------------------
 
 

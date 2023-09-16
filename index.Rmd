@@ -29,7 +29,7 @@ En este curso exploraremos el uso de shaders para generar visuales audioreactivo
 |---------|:--------------------------|
 | 01  | [Coordenadas, color y dinamica](https://ucdavis.box.com/s/buhe6vg36gxsvzb4g7ztadtcs18hrtrm) |
 | 02  | [Texturas, buffers y feedback](https://ucdavis.box.com/s/zmprubcakme1xqku3tzogd9vjzovm6at)  |
-| 03  | Mas alla de los basicos       |
+| 03  | [Mas alla de los basicos](https://ucdavis.box.com/s/enwvc78kemrqgsjs2ax3hfqmxm0zcj3u)       |
 
 
 ## Enlaces de referencia

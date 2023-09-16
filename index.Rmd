@@ -40,6 +40,10 @@ En este curso exploraremos el uso de shaders para generar visuales audioreactivo
   - [Hypno videopacks](https://sleepycircuits.com/latest-video-pack), libreria de videos gratis
   - [Blend modes](https://www.shadertoy.com/view/4tSGWV)
   - [Como hacer Datamosh?](https://interactiveimmersive.io/blog/glsl/datamoshing-in-touchdesigner-part-3/)
+  - Cosas de 3D:
+    - [Sketchfab](https://sketchfab.com/) libreria de geometrias 3D
+    - [Blender](https://www.blender.org/download/) Software de edicion para modelos 3D
+    - [Meta Spark toolkit](https://spark.meta.com/learn/articles/creating-and-prepping-assets/toolkit-for-blender) addin de blender para simplificar geometrias
 
 -------------------
 

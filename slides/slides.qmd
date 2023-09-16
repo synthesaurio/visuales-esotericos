@@ -343,3 +343,53 @@ Algunos de ellos abordan el codigo y las matematicas desde una perspectiva mas f
 :::
 
 # Coding Time II
+
+# Parte III: Mas alla de los basicos
+
+## El mundo en 3D
+
+::::{.columns}
+
+:::{.column width="50%"}
+![](img/3d-geom.png)
+Geometrias
+:::
+
+:::{.column width="50%"}
+![](img/3d-raymarching.png)
+Ray marching
+:::
+
+::::
+
+
+## Donde conseguir geometrias?
+
+[https://sketchfab.com/](https://sketchfab.com/)
+
+:::{.r-stack}
+
+![](img/sketchfab.png){.fragment .fade-in-then-out fragment-index=1 width="70%"}
+
+![](img/sketchfab-more.png){.fragment .fade-in-then-out fragment-index=2 width="60%"}
+
+
+
+:::
+
+## Simplificando geometrias
+
+[Meta Spark AR toolkit](https://spark.meta.com/learn/articles/creating-and-prepping-assets/toolkit-for-blender)
+
+![](img/MSAR-optim.gif)
+
+## Raymarching
+
+:::{.r-stack}
+
+![](img/rm-eye.jpeg){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/raymarch-01.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/raymarch-02.png){.fragment .fade-in-then-out fragment-index=3}
+:::

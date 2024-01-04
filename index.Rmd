@@ -5,12 +5,14 @@ output: html_document
 **Instructor: Synthesaurio (a.k.a Pablo Gomez)**
 
 
-## Descripción del curso
+## Descripción del taller
 
-GLSL es un lenguaje de programación para gráficos computacionales llamados shaders. Multiples plataformas de libre acceso proveen soporte a este lenguaje (i.e. touchdesigner, Meta spark AR, Unity). Algunas de estas plataformas permiten intervenir los shaders con señales externas como audio o midi, proporcionando la oportunidad de producir visuales generativos en tiempo real que responden a musica o sonido.
-En este curso exploraremos el uso de shaders para generar visuales audioreactivos mediante el software [Kodelife](https://hexler.net/kodelife). Kodelife es un editor de GLSL en tiempo real multiplataforma (windows, mac, ios, android y linux). No es necesario contar con conocimientos previo en programación, se recomienda a los participantes traer sus propios medios digitales (videos, imágenes, audios). 
+En este taller exploraremos la intersección entre audio y visuales mediante el uso de GLSL dentro del software multiplataforma (windows, mac, ios, android y linux) [Kodelife](https://hexler.net/kodelife). GLSL es un lenguaje de programación para gráficos computacionales llamados shaders. Múltiples plataformas de libre acceso proveen soporte a este lenguaje (i.e. touchdesigner, Meta spark AR, Unity). Algunas de estas plataformas permiten intervenir los shaders con señales externas como audio o midi, proporcionando la oportunidad de producir visuales generativos en tiempo real que responden a música o sonido. 
+El taller está planteado desde una perspectiva multidisciplinaria en la que se integran conocimientos básicos de áreas como música, gráficos computacionales y programación. No es necesario que los participantes tengan experiencia en estas áreas, ya que el principal enfoque es que exploren el material desde su propia perspectiva y percepción de la realidad, utilizando las herramientas proporcionadas con un enfoque artístico y creativo, e interactuando con los demás participantes e instructor.
 
-## Objetivos del curso
+No es necesario contar con conocimientos previos en programación, se recomienda a los participantes traer sus propios medios digitales a intervenir (videos, imágenes, audios). 
+
+## Objetivos del taller
 
 - Familiarizarse con el lenguaje de programación GLSL
 - Entender como integrar señales externas como audio en los visuales
@@ -22,7 +24,11 @@ En este curso exploraremos el uso de shaders para generar visuales audioreactivo
 - Software: [Kodelife](https://hexler.net/kodelife)
 - *Opcional: touchdesigner*
 
-## Temario
+## Contenido del taller
+
+El taller consiste en una combinación de presentaciones interactivas y ejercicios diseñados para familiarizarse con el lenguaje de programación GLSL y las herramientas disponibles para su implementación. 
+Durante las presentaciones, los participantes tendrán oportunidad de interactuar con el instructor y revisar conceptos básicos en audio y gráficos computacionales, y en los ejercicios implementaran estos conceptos para generar e intervenir piezas audiovisuales. 
+No es necesario contar con conocimientos previos en programación, se recomienda a los participantes traer sus propios medios digitales a intervenir (videos, imágenes, audios) para mejorar la interacción y los resultados obtenidos al final del taller.
 
 
 | Dia | Tema                          |

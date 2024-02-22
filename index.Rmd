@@ -33,7 +33,7 @@ No es necesario contar con conocimientos previos en programación, se recomienda
 
 | Dia | Tema                          |
 |---------|:--------------------------|
-| Febrero 22  | Coordenadas, color y dinamica |
+| Febrero 22  | Espacio y color |
 | Febrero 23  | Texturas, buffers y feedback |
 
 

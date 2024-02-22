@@ -9,38 +9,33 @@ format:
 
 ## Quien es Pablo (Synthesaurio)?
 
-![](img/vet.png){fig-align="center"}
+:::{.r-stack}
+
+![](img/vet.png){.fragment fragment-index="0" .fade-in-then-out .absolute top=200 left=180}
+
+![](img/day.png){.fragment fragment-index="1" .fade-in-then-out .absolute top=90 left=40}
+
+![](img/night.png){.fragment fragment-index="2" .fade-in-then-out .absolute top=90 left=40}
+
+:::
+
+
 
 ::: notes
 Igual nada mas les quiero dar un poco de background de quien soy yo, 
-:::
-
-## Quien es Pablo (Synthesaurio)?
-
-
-![](img/day.png){fig-align="center"}
-
-::: notes
 Eventualmente me termine dedicando a epidemiologia computacional, lo cual involucra mucho codigo y modelos matematicos, y eso me llevp un poco a trabajar con visualizacion de datos.
 Como a mi siempre me han gustado los shows en vivo y la musica, durante la pandemia en 2020 dije... ya se que hare con mi tiempo libre
-:::
 
-## Quien es Synthesaurio?
-
-![](img/night.png){width="60%" fig-align="center"}
-
-::: notes
 Cuando terminaba el dia de trabajo cerraba mi computadora, me iba a mi casa, abria la compu otra vez y empece a experimentar con algunos softwares para hace visuales en vivo
 :::
-
-## Quien es Synthesaurio?
-
-![](img/vids/reel.mp4)
 
 
 ## Quien es Synthesaurio?
 
 :::{.r-stack}
+
+![](img/vids/reel.mp4){.fragment fragment-index="0" .fade-in-then-out}
+
 ![](img/td.png){.fragment .fade-in-then-out fragment-index=1}
 
 ![](img/kodelife.png){.fragment .fade-in-then-out fragment-index=2}
@@ -53,26 +48,33 @@ Cuando terminaba el dia de trabajo cerraba mi computadora, me iba a mi casa, abr
 
 ::::{.columns}
 
-:::{.column width="33%"}
-I: Coordenadas, Colores y Dinamica
+:::{.column width="50%"}
+I: Luz y Forma
 
-![](img/dI.png)
+![](img/dI.gif)
 
 :::
 
-:::{.column width="33%"}
+:::{.column width="50%"}
+
+:::{.fragment fragment-index="1" .fade-in}
 II: Interviniendo texturas
 
-![](img/dII.png)
+![](img/dII.gif)
 
 :::
 
+:::
+
+
+<!--- Para 3 day format
 :::{.column width="33%"}
 III: Mas alla de los básicos
 
 ![](img/dIII.png)
 
 :::
+--->
 
 ::::
 
@@ -81,7 +83,7 @@ III: Mas alla de los básicos
 
 [https://www.synthesaurio.com/visuales-esotericos/](https://www.synthesaurio.com/visuales-esotericos/)
 
-![](img/glsl-website.png)
+![](img/glsl-website.png){fig-align="center"}
 
 
 ## Por que codigo?
@@ -229,6 +231,33 @@ Algunos de ellos abordan el codigo y las matematicas desde una perspectiva mas f
   - sage
   - [Patricio Gonzalez](https://thebookofshaders.com) 
 :::
+
+## Umwelt: Precibiendo el mundo a nuestro alrededor
+
+:::{.r-stack}
+
+![](img/vizSpectrum.png){.fragment .fade-in-then-out fragment-index=0 width="60%" fig-align="center"}
+
+![](img/vizInsects.jpg){.fragment .fade-in-then-out fragment-index=1 width=8in}
+
+![](img/vizShrimp.jpeg){.fragment .fade-in-then-out fragment-index=2 width=8in}
+
+:::
+
+::: notes
+
+Alguien ha escuchado sobre el umwelt?
+basicamente es un concepto que dice que la percepcion de nuestro mundo esta intrinsicamente atada a nuestros sentidos y experiencias y cada individuo tiene una percepcion unica 
+
+Un ejemplo muy obvio es la manera en la que distintos organismos interpretamos la luz por medio de la vision...
+
+Y a que biene todo esto? Muchas veces como artistas, conceptualizamos una idea en nuestra cabeza, pero dependiendo de las herramientas que tengamos, y nuestra capacidad de traducirla, a veces nos pueden salir reinterpretaciones inesperadas dando espacio a 
+
+:::
+
+## Moviendo las barreras de percepcion
+
+![](img/vids/bb.mov){width="50%" fig-align="center"}
   
 ## Diseños generativos: replicando la naturaleza
 
@@ -282,6 +311,8 @@ Algunos de ellos abordan el codigo y las matematicas desde una perspectiva mas f
 
 
 # Coding time!
+
+<!--
 
 # Parte II: Interviniendo texturas
 
@@ -395,3 +426,5 @@ Ray marching
 :::
 
 # Coding Time III
+
+-->

@@ -8,7 +8,7 @@
 <link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="slides_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.353">
+  <meta name="generator" content="quarto-1.4.549">
 
   <meta name="author" content="Pablo Gomez a.k.a Synthesaurio (el)">
   <title>Visuales esotericos con GLSL</title>
@@ -156,7 +156,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -338,26 +339,14 @@ Pablo Gomez a.k.a Synthesaurio (el)
 </section>
 <section id="quien-es-pablo-synthesaurio" class="slide level2">
 <h2>Quien es Pablo (Synthesaurio)?</h2>
-
-<img data-src="img/vet.png" class="r-stretch quarto-figure-center"><aside class="notes">
-<p>Igual nada mas les quiero dar un poco de background de quien soy yo,</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="quien-es-pablo-synthesaurio-1" class="slide level2">
-<h2>Quien es Pablo (Synthesaurio)?</h2>
-
-<img data-src="img/day.png" class="r-stretch quarto-figure-center"><aside class="notes">
-<p>Eventualmente me termine dedicando a epidemiologia computacional, lo cual involucra mucho codigo y modelos matematicos, y eso me llevp un poco a trabajar con visualizacion de datos. Como a mi siempre me han gustado los shows en vivo y la musica, durante la pandemia en 2020 dije… ya se que hare con mi tiempo libre</p>
+<div class="r-stack">
+<p><img data-src="img/vet.png" class="fragment fade-in-then-out absolute" style="top: 200px; left: 180px; " data-fragment-index="0"></p>
+<p><img data-src="img/day.png" class="fragment fade-in-then-out absolute" style="top: 90px; left: 40px; " data-fragment-index="1"></p>
+<p><img data-src="img/night.png" class="fragment fade-in-then-out absolute" style="top: 90px; left: 40px; " data-fragment-index="2"></p>
+</div>
+<aside class="notes">
+<p>Igual nada mas les quiero dar un poco de background de quien soy yo, Eventualmente me termine dedicando a epidemiologia computacional, lo cual involucra mucho codigo y modelos matematicos, y eso me llevp un poco a trabajar con visualizacion de datos. Como a mi siempre me han gustado los shows en vivo y la musica, durante la pandemia en 2020 dije… ya se que hare con mi tiempo libre</p>
+<p>Cuando terminaba el dia de trabajo cerraba mi computadora, me iba a mi casa, abria la compu otra vez y empece a experimentar con algunos softwares para hace visuales en vivo</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -372,28 +361,8 @@ Pablo Gomez a.k.a Synthesaurio (el)
 </section>
 <section id="quien-es-synthesaurio" class="slide level2">
 <h2>Quien es Synthesaurio?</h2>
-
-<img data-src="img/night.png" style="width:60.0%" class="r-stretch quarto-figure-center"><aside class="notes">
-<p>Cuando terminaba el dia de trabajo cerraba mi computadora, me iba a mi casa, abria la compu otra vez y empece a experimentar con algunos softwares para hace visuales en vivo</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="quien-es-synthesaurio-1" class="slide level2">
-<h2>Quien es Synthesaurio?</h2>
-<p><video data-src="img/vids/reel.mp4" controls=""><a href="img/vids/reel.mp4">Video</a></video></p>
-</section>
-<section id="quien-es-synthesaurio-2" class="slide level2">
-<h2>Quien es Synthesaurio?</h2>
 <div class="r-stack">
+<p><video data-src="img/vids/reel.mp4" class="fragment fade-in-then-out" data-fragment-index="0" controls=""><a href="img/vids/reel.mp4">Video</a></video></p>
 <p><img data-src="img/td.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
 <p><img data-src="img/kodelife.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
 </div>
@@ -401,23 +370,29 @@ Pablo Gomez a.k.a Synthesaurio (el)
 <section id="que-es-este-curso" class="slide level2">
 <h2>Que es este curso?</h2>
 <div class="columns">
-<div class="column" style="width:33%;">
-<p>I: Coordenadas, Colores y Dinamica</p>
-<p><img data-src="img/dI.png"></p>
-</div><div class="column" style="width:33%;">
+<div class="column" style="width:50%;">
+<p>I: Luz y Forma</p>
+<p><img data-src="img/dI.gif"></p>
+</div><div class="column" style="width:50%;">
+<div class="fragment fade-in" data-fragment-index="1">
 <p>II: Interviniendo texturas</p>
-<p><img data-src="img/dII.png"></p>
-</div><div class="column" style="width:33%;">
-<p>III: Mas alla de los básicos</p>
-<p><img data-src="img/dIII.png"></p>
+<p><img data-src="img/dII.gif"></p>
 </div>
+</div><!--- Para 3 day format
+:::{.column width="33%"}
+III: Mas alla de los básicos
+
+![](img/dIII.png)
+
+:::
+--->
 </div>
 </section>
 <section id="website" class="slide level2">
 <h2>Website</h2>
 <p><a href="https://www.synthesaurio.com/visuales-esotericos/">https://www.synthesaurio.com/visuales-esotericos/</a></p>
 
-<img data-src="img/glsl-website.png" class="r-stretch"></section>
+<img data-src="img/glsl-website.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="por-que-codigo" class="slide level2">
 <h2>Por que codigo?</h2>
 <ul>
@@ -555,6 +530,41 @@ Pablo Gomez a.k.a Synthesaurio (el)
           display:block!important;
       }</style></aside>
 </section>
+<section id="umwelt-precibiendo-el-mundo-a-nuestro-alrededor" class="slide level2">
+<h2>Umwelt: Precibiendo el mundo a nuestro alrededor</h2>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/vizSpectrum.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:60.0%" data-fragment-index="0"></p>
+</figure>
+</div>
+<p><img data-src="img/vizInsects.jpg" class="fragment fade-in-then-out" style="width:8in" data-fragment-index="1"></p>
+<p><img data-src="img/vizShrimp.jpeg" class="fragment fade-in-then-out" style="width:8in" data-fragment-index="2"></p>
+</div>
+<aside class="notes">
+<p>Alguien ha escuchado sobre el umwelt? basicamente es un concepto que dice que la percepcion de nuestro mundo esta intrinsicamente atada a nuestros sentidos y experiencias y cada individuo tiene una percepcion unica</p>
+<p>Un ejemplo muy obvio es la manera en la que distintos organismos interpretamos la luz por medio de la vision…</p>
+<p>Y a que biene todo esto? Muchas veces como artistas, conceptualizamos una idea en nuestra cabeza, pero dependiendo de las herramientas que tengamos, y nuestra capacidad de traducirla, a veces nos pueden salir reinterpretaciones inesperadas dando espacio a</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="moviendo-las-barreras-de-percepcion" class="slide level2">
+<h2>Moviendo las barreras de percepcion</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><video data-src="img/vids/bb.mov" class="quarto-figure quarto-figure-center" style="width:50.0%" controls=""><a href="img/vids/bb.mov">Video</a></video></p>
+</figure>
+</div>
+</section>
 <section id="diseños-generativos-replicando-la-naturaleza" class="slide level2">
 <h2>Diseños generativos: replicando la naturaleza</h2>
 <div class="r-stack">
@@ -596,7 +606,7 @@ Pablo Gomez a.k.a Synthesaurio (el)
 <div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/time.png" class="fragment fade-in-then-out" style="width:70.0%" data-fragment-index="1"></p>
+<p><img data-src="img/time.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:70.0%" data-fragment-index="1"></p>
 </figure>
 </div>
 <p><img data-src="img/spectrum-1.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
@@ -618,112 +628,126 @@ Pablo Gomez a.k.a Synthesaurio (el)
 </section>
 <section id="coding-time" class="title-slide slide level1 center">
 <h1>Coding time!</h1>
+<!--
 
-</section>
+# Parte II: Interviniendo texturas
 
-<section id="parte-ii-interviniendo-texturas" class="title-slide slide level1 center">
-<h1>Parte II: Interviniendo texturas</h1>
+# Pero primero una recap...
 
-</section>
 
-<section>
-<section id="pero-primero-una-recap" class="title-slide slide level1 center">
-<h1>Pero primero una recap…</h1>
+## Colores en GLSL
 
-</section>
-<section id="colores-en-glsl" class="slide level2">
-<h2>Colores en GLSL</h2>
-<div class="r-stack">
-<p><img data-src="img/col-01.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
-<p><img data-src="img/col-02.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
-<p><img data-src="img/col-03.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
-</div>
-</section>
-<section id="coordenadas-en-glsl" class="slide level2">
-<h2>Coordenadas en GLSL</h2>
-<div class="r-stack">
-<p><img data-src="img/coords-pos.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
-<p><img data-src="img/coords-xy2.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
-<p><img data-src="img/coords-space-01.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
-<p><img data-src="img/coords-space-02.png" class="fragment fade-in-then-out" data-fragment-index="4"></p>
-<p><img data-src="img/coords-space-03.png" class="fragment fade-in-then-out" data-fragment-index="5"></p>
-</div>
-</section>
-<section id="formas-en-glsl" class="slide level2">
-<h2>Formas en GLSL</h2>
-<div class="r-stack">
-<p><img data-src="img/shapes-00.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
-<p><img data-src="img/shapes-01.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
-<p><img data-src="img/shapes-02.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
-<p><img data-src="img/shapes-03.png" class="fragment fade-in-then-out" data-fragment-index="4"></p>
-<p><img data-src="img/shapes-04.png" class="fragment fade-in-then-out" data-fragment-index="5"></p>
-</div>
-<aside class="notes">
-<ul>
-<li>Use the functions, experiment with new functions if you feel more adventorous</li>
-<li>Use smoothstep for sharpening the shapes</li>
-<li>COMBINE shapes to create new ones
-<ul>
-<li>min, max, +, -, *, and other creative ways!</li>
-</ul></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section></section>
-<section id="coding-time-ii" class="title-slide slide level1 center">
-<h1>Coding Time II</h1>
+:::{.r-stack}
 
-</section>
+![](img/col-01.png){.fragment .fade-in-then-out fragment-index=1}
 
-<section>
-<section id="parte-iii-mas-alla-de-los-basicos" class="title-slide slide level1 center">
-<h1>Parte III: Mas alla de los basicos</h1>
+![](img/col-02.png){.fragment .fade-in-then-out fragment-index=2}
 
-</section>
-<section id="el-mundo-en-3d" class="slide level2">
-<h2>El mundo en 3D</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="img/3d-geom.png"> Geometrias</p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/3d-raymarching.png"> Ray marching</p>
-</div>
-</div>
-</section>
-<section id="donde-conseguir-geometrias" class="slide level2">
-<h2>Donde conseguir geometrias?</h2>
-<p><a href="https://sketchfab.com/">https://sketchfab.com/</a></p>
-<div class="r-stack">
-<p><img data-src="img/sketchfab.png" class="fragment fade-in-then-out" style="width:70.0%" data-fragment-index="1"></p>
-<p><img data-src="img/sketchfab-more.png" class="fragment fade-in-then-out" style="width:60.0%" data-fragment-index="2"></p>
-</div>
-</section>
-<section id="simplificando-geometrias" class="slide level2">
-<h2>Simplificando geometrias</h2>
-<p><a href="https://spark.meta.com/learn/articles/creating-and-prepping-assets/toolkit-for-blender">Meta Spark AR toolkit</a></p>
+![](img/col-03.png){.fragment .fade-in-then-out fragment-index=3}
 
-<img data-src="img/MSAR-optim.gif" class="r-stretch"></section>
-<section id="raymarching" class="slide level2">
-<h2>Raymarching</h2>
-<div class="r-stack">
-<p><img data-src="img/rm-eye.jpeg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
-<p><img data-src="img/raymarch-01.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
-<p><img data-src="img/raymarch-02.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
-</div>
-</section></section>
-<section id="coding-time-iii" class="title-slide slide level1 center">
-<h1>Coding Time III</h1>
+:::
+
+## Coordenadas en GLSL
+
+:::{.r-stack}
+
+![](img/coords-pos.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/coords-xy2.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/coords-space-01.png){.fragment .fade-in-then-out fragment-index=3}
+
+![](img/coords-space-02.png){.fragment .fade-in-then-out fragment-index=4}
+
+![](img/coords-space-03.png){.fragment .fade-in-then-out fragment-index=5}
+
+:::
+
+## Formas en GLSL
+
+:::{.r-stack}
+
+![](img/shapes-00.png){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/shapes-01.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/shapes-02.png){.fragment .fade-in-then-out fragment-index=3}
+
+![](img/shapes-03.png){.fragment .fade-in-then-out fragment-index=4}
+
+![](img/shapes-04.png){.fragment .fade-in-then-out fragment-index=5}
+
+:::
+
+
+::: notes
+
+  - Use the functions, experiment with new functions if you feel more adventorous
+  - Use smoothstep for sharpening the shapes
+  - COMBINE shapes to create new ones 
+    - min, max, +, -, *, and other creative ways!
+  
+:::
+
+# Coding Time II
+
+# Parte III: Mas alla de los basicos
+
+## El mundo en 3D
+
+::::{.columns}
+
+:::{.column width="50%"}
+![](img/3d-geom.png)
+Geometrias
+:::
+
+:::{.column width="50%"}
+![](img/3d-raymarching.png)
+Ray marching
+:::
+
+::::
+
+
+## Donde conseguir geometrias?
+
+[https://sketchfab.com/](https://sketchfab.com/)
+
+:::{.r-stack}
+
+![](img/sketchfab.png){.fragment .fade-in-then-out fragment-index=1 width="70%"}
+
+![](img/sketchfab-more.png){.fragment .fade-in-then-out fragment-index=2 width="60%"}
+
+
+
+:::
+
+## Simplificando geometrias
+
+[Meta Spark AR toolkit](https://spark.meta.com/learn/articles/creating-and-prepping-assets/toolkit-for-blender)
+
+![](img/MSAR-optim.gif)
+
+## Raymarching
+
+:::{.r-stack}
+
+![](img/rm-eye.jpeg){.fragment .fade-in-then-out fragment-index=1}
+
+![](img/raymarch-01.png){.fragment .fade-in-then-out fragment-index=2}
+
+![](img/raymarch-02.png){.fragment .fade-in-then-out fragment-index=3}
+:::
+
+# Coding Time III
+
+-->
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p><a href="http://www.synthesaurio.com/visuales-esotericos/">Inicio</a></p>
+</div>
 </div>
 </section>
     </div>
@@ -752,7 +776,6 @@ Pablo Gomez a.k.a Synthesaurio (el)
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1013,10 +1036,9 @@ Pablo Gomez a.k.a Synthesaurio (el)
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1026,8 +1048,17 @@ Pablo Gomez a.k.a Synthesaurio (el)
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 

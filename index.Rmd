@@ -41,8 +41,6 @@ No es necesario contar con conocimientos previos en programación, se recomienda
 
 Para registrarse al taller, llenar el siguiente formulario: https://forms.gle/V6qZAaBYsGkJyvc5A
 
-
-<!--
 ## Enlaces de referencia
 
   - [Funciones para formas](https://iquilezles.org/articles/distfunctions2d/)
@@ -50,6 +48,9 @@ Para registrarse al taller, llenar el siguiente formulario: https://forms.gle/V6
   - [The book of shaders:](https://thebookofshaders.com) La biblia de referencia para shaders
   - [Hypno videopacks](https://sleepycircuits.com/latest-video-pack), libreria de videos gratis
   - [Blend modes](https://www.shadertoy.com/view/4tSGWV)
+  
+<!--
+
   - [Como hacer Datamosh?](https://interactiveimmersive.io/blog/glsl/datamoshing-in-touchdesigner-part-3/)
   - Cosas de 3D:
     - [Sketchfab](https://sketchfab.com/) libreria de geometrias 3D

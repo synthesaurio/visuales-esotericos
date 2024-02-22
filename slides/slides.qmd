@@ -81,7 +81,7 @@ III: Mas alla de los básicos
 
 ## Website
 
-[https://www.synthesaurio.com/visuales-esotericos/](https://www.synthesaurio.com/visuales-esotericos/)
+[https://www.synthesaurio.com/visuales-esotericos/](https://www.synthesaurio.com/visuales-esotericos/){preview-link="true"}
 
 ![](img/glsl-website.png){fig-align="center"}
 

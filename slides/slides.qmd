@@ -312,8 +312,6 @@ Y a que biene todo esto? Muchas veces como artistas, conceptualizamos una idea e
 
 # Coding time!
 
-<!--
-
 # Parte II: Interviniendo texturas
 
 # Pero primero una recap...
@@ -373,7 +371,60 @@ Y a que biene todo esto? Muchas veces como artistas, conceptualizamos una idea e
   
 :::
 
+## Texturas
+
+![](img/col-02.png){.fragment .fade-in-then-out fragment-index=0 .absolute top=100 left=90}
+
+![](img/texInterface.png){.fragment .fade-in fragment-index=1 width="50%" .absolute top=100 left=600}
+
+![](img/texDeclare.png){.fragment .fade-in fragment-index=2 width="50%" .absolute top=200 left=0}
+
+![](img/texVar.png){.fragment .fade-in-then-out fragment-index=3 width="50%" .absolute top=300 left=0}
+
+::: notes
+
+Texturas = video or image 
+
+texturas componen de 4 canales 
+
+Funcion para cargar texturas
+
+videos e imagenes se cargan igual en el codigo, la unica diferencia es en la interfaz
+
+Cosas que podemos hacer con texturas:
+  
+  - blending
+  - displacement
+  - substract or other operations
+  - feedback
+
+:::
+
+## Combinando texturas
+
+:::{.r-stack}
+
+![](img/tx0){.fragment .fade-in fragment-index=0 width="30%" .absolute top=100 left=60}
+![](img/tx1){.fragment .fade-in fragment-index=0 width="30%" .absolute top=100 left=550}
+
+![](img/txSub.png){.fragment .fade-in fragment-index=1 width="30%" .absolute top=300 left=-10}
+![](img/txMult.png){.fragment .fade-in fragment-index=1 width="30%" .absolute top=300 left=350}
+
+![](img/txMin.png){.fragment .fade-in fragment-index=1 width="30%" .absolute top=300 left=700}
+
+:::
+
+## Desplazando texturas
+
+![](img/texVar.png){.fragment .fade-in-then-out fragment-index=0 width="50%" .absolute top=100 left=300}
+
+![](img/txDispCode.png){.fragment .fade-in fragment-index=1 width="40%" .absolute top=100 left=300}
+![](img/txDisplace.gif){.fragment .fade-in fragment-index=2 width="40%" .absolute top=200 left=300}
+
 # Coding Time II
+
+
+<!--
 
 # Parte III: Mas alla de los basicos
 

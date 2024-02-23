@@ -48,6 +48,7 @@ Para registrarse al taller, llenar el siguiente formulario: https://forms.gle/V6
   - [The book of shaders:](https://thebookofshaders.com) La biblia de referencia para shaders
   - [Hypno videopacks](https://sleepycircuits.com/latest-video-pack), libreria de videos gratis
   - [Blend modes](https://www.shadertoy.com/view/4tSGWV)
+  - [Otras funciones](https://github.com/synthesaurio/visuales-esotericos/blob/main/checkpoints/funciones.glsl)
   
 <!--
 
@@ -56,7 +57,7 @@ Para registrarse al taller, llenar el siguiente formulario: https://forms.gle/V6
     - [Sketchfab](https://sketchfab.com/) libreria de geometrias 3D
     - [Blender](https://www.blender.org/download/) Software de edicion para modelos 3D
     - [Meta Spark toolkit](https://spark.meta.com/learn/articles/creating-and-prepping-assets/toolkit-for-blender) addin de blender para simplificar geometrias
-  - [Otras funciones](https://github.com/synthesaurio/visuales-esotericos/blob/main/checkpoints/funciones.glsl)
+  
   
 -->
 

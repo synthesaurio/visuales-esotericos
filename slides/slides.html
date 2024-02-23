@@ -628,68 +628,113 @@ III: Mas alla de los básicos
 </section>
 <section id="coding-time" class="title-slide slide level1 center">
 <h1>Coding time!</h1>
+
+</section>
+
+<section id="parte-ii-interviniendo-texturas" class="title-slide slide level1 center">
+<h1>Parte II: Interviniendo texturas</h1>
+
+</section>
+
+<section>
+<section id="pero-primero-una-recap" class="title-slide slide level1 center">
+<h1>Pero primero una recap…</h1>
+
+</section>
+<section id="colores-en-glsl" class="slide level2">
+<h2>Colores en GLSL</h2>
+<div class="r-stack">
+<p><img data-src="img/col-01.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="img/col-02.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+<p><img data-src="img/col-03.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
+</div>
+</section>
+<section id="coordenadas-en-glsl" class="slide level2">
+<h2>Coordenadas en GLSL</h2>
+<div class="r-stack">
+<p><img data-src="img/coords-pos.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="img/coords-xy2.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+<p><img data-src="img/coords-space-01.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
+<p><img data-src="img/coords-space-02.png" class="fragment fade-in-then-out" data-fragment-index="4"></p>
+<p><img data-src="img/coords-space-03.png" class="fragment fade-in-then-out" data-fragment-index="5"></p>
+</div>
+</section>
+<section id="formas-en-glsl" class="slide level2">
+<h2>Formas en GLSL</h2>
+<div class="r-stack">
+<p><img data-src="img/shapes-00.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="img/shapes-01.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+<p><img data-src="img/shapes-02.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
+<p><img data-src="img/shapes-03.png" class="fragment fade-in-then-out" data-fragment-index="4"></p>
+<p><img data-src="img/shapes-04.png" class="fragment fade-in-then-out" data-fragment-index="5"></p>
+</div>
+<aside class="notes">
+<ul>
+<li>Use the functions, experiment with new functions if you feel more adventorous</li>
+<li>Use smoothstep for sharpening the shapes</li>
+<li>COMBINE shapes to create new ones
+<ul>
+<li>min, max, +, -, *, and other creative ways!</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="texturas" class="slide level2">
+<h2>Texturas</h2>
+<p><img data-src="img/col-02.png" class="fragment fade-in-then-out absolute" style="top: 100px; left: 90px; " data-fragment-index="0"></p>
+<p><img data-src="img/texInterface.png" class="fragment fade-in absolute" style="top: 100px; left: 600px; width: 50%; " data-fragment-index="1"></p>
+<p><img data-src="img/texDeclare.png" class="fragment fade-in absolute" style="top: 200px; left: 0px; width: 50%; " data-fragment-index="2"></p>
+<p><img data-src="img/texVar.png" class="fragment fade-in-then-out absolute" style="top: 300px; left: 0px; width: 50%; " data-fragment-index="3"></p>
+<aside class="notes">
+<p>Texturas = video or image</p>
+<p>texturas componen de 4 canales</p>
+<p>Funcion para cargar texturas</p>
+<p>videos e imagenes se cargan igual en el codigo, la unica diferencia es en la interfaz</p>
+<p>Cosas que podemos hacer con texturas:</p>
+<ul>
+<li>blending</li>
+<li>displacement</li>
+<li>substract or other operations</li>
+<li>feedback</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="combinando-texturas" class="slide level2">
+<h2>Combinando texturas</h2>
+<div class="r-stack">
+<p><img data-src="img/tx0.png" class="fragment fade-in absolute" style="top: 100px; left: 60px; width: 30%; " data-fragment-index="0"> <img data-src="img/tx1.png" class="fragment fade-in absolute" style="top: 100px; left: 550px; width: 30%; " data-fragment-index="0"></p>
+<p><img data-src="img/txSub.png" class="fragment fade-in absolute" style="top: 300px; left: -10px; width: 30%; " data-fragment-index="1"> <img data-src="img/txMult.png" class="fragment fade-in absolute" style="top: 300px; left: 350px; width: 30%; " data-fragment-index="1"></p>
+<p><img data-src="img/txMin.png" class="fragment fade-in absolute" style="top: 300px; left: 700px; width: 30%; " data-fragment-index="1"></p>
+</div>
+</section>
+<section id="desplazando-texturas" class="slide level2">
+<h2>Desplazando texturas</h2>
+<p><img data-src="img/texVar.png" class="fragment fade-in-then-out absolute" style="top: 100px; left: 300px; width: 50%; " data-fragment-index="0"></p>
+<p><img data-src="img/txDispCode.png" class="fragment fade-in absolute" style="top: 100px; left: 300px; width: 40%; " data-fragment-index="1"> <img data-src="img/txDisplace.gif" class="fragment fade-in absolute" style="top: 200px; left: 300px; width: 40%; " data-fragment-index="2"></p>
+</section></section>
+<section id="coding-time-ii" class="title-slide slide level1 center">
+<h1>Coding Time II</h1>
 <!--
-
-# Parte II: Interviniendo texturas
-
-# Pero primero una recap...
-
-
-## Colores en GLSL
-
-:::{.r-stack}
-
-![](img/col-01.png){.fragment .fade-in-then-out fragment-index=1}
-
-![](img/col-02.png){.fragment .fade-in-then-out fragment-index=2}
-
-![](img/col-03.png){.fragment .fade-in-then-out fragment-index=3}
-
-:::
-
-## Coordenadas en GLSL
-
-:::{.r-stack}
-
-![](img/coords-pos.png){.fragment .fade-in-then-out fragment-index=1}
-
-![](img/coords-xy2.png){.fragment .fade-in-then-out fragment-index=2}
-
-![](img/coords-space-01.png){.fragment .fade-in-then-out fragment-index=3}
-
-![](img/coords-space-02.png){.fragment .fade-in-then-out fragment-index=4}
-
-![](img/coords-space-03.png){.fragment .fade-in-then-out fragment-index=5}
-
-:::
-
-## Formas en GLSL
-
-:::{.r-stack}
-
-![](img/shapes-00.png){.fragment .fade-in-then-out fragment-index=1}
-
-![](img/shapes-01.png){.fragment .fade-in-then-out fragment-index=2}
-
-![](img/shapes-02.png){.fragment .fade-in-then-out fragment-index=3}
-
-![](img/shapes-03.png){.fragment .fade-in-then-out fragment-index=4}
-
-![](img/shapes-04.png){.fragment .fade-in-then-out fragment-index=5}
-
-:::
-
-
-::: notes
-
-  - Use the functions, experiment with new functions if you feel more adventorous
-  - Use smoothstep for sharpening the shapes
-  - COMBINE shapes to create new ones 
-    - min, max, +, -, *, and other creative ways!
-  
-:::
-
-# Coding Time II
 
 # Parte III: Mas alla de los basicos
 
